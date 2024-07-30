@@ -1,0 +1,10 @@
+package com.app.services;
+
+import java.util.List;
+
+public interface AdminService {
+
+	List<UpdateUserDTO> getAllUsersByRole(Role role);
+
+	ApiResponse blockClient(Long id);
+}
